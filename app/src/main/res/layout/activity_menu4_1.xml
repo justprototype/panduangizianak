@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        tools:context=".Menu4_1Activity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Karbohidrat"
+            android:textSize="30dp"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="40dp"
+            android:src="@drawable/menu41"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manfaat :" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1)"
+                android:layout_weight="13"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sebagai sumber energi utama bagi tubuh untuk melakukan aktifitas sehari-hari."
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2)"
+                android:layout_weight="13"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sebagai sumber energi utama bagi sistem saraf pusat, terutama otak."
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3)"
+                android:layout_weight="13"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sebagai cadangan sumber energi yang dapat digunkan sewaktu-waktu."
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Sumber Makanan yang mengandung karbohidrat :" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="1. Beras\n2. Bihun\n3. Biskuit\n4. Bubur Beras\n5. Es Krim\n6. Gandum\n7. Jagung\n8. Kentang\n9. Krekers\n10. Kacang Polong\n11. Mi Kering\n12. Mi Basah\n13. Pasta\n14. Roti\n15. Sereal\n16. Susu\n17. Singkong\n18. Tepung Sagu\n19. Tepung Bersa\n20. Talas\n21. Ubi\n22. Yogurt"/>
+
+    </LinearLayout>
+</ScrollView>

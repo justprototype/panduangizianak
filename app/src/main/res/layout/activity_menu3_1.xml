@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu3_1Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mengapa Harus Gizi Seimbang ?"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="40dp"
+        android:src="@drawable/iconmenu3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Tahukan ibu.. Bahwa pola makan yang yang dibentuk sejak dini sangat berpengaruh terhadap kesehatan dan perilaku makan anak pada usia selanjutnya?? "
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Asupan gizi yang sehat dan seimbang pada anak sangat penting untuk diperhatikan, karena tidak hanya dibutuhkan untuk pertumbuhan fisik yang optimal tetapi juga untuk perkembangan fisik dan mental, perkembangan kecerdasan anak,  menjaga kekebalan, serta mengurangi resiko terjadinya penyakit kronis pada anak."
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Asupan gizi yang tidak seimbang pada anak dapat menyebabkan barbagai macam permasalahan. Anak yang kekurangan gizi dapat mengalami permasalahan kesehatan seperti kekurangan energi protein (KEP) dan kekurangn gizi yang dapat menyebabkan pertumbuhan yang tidak optimal, penurunan daya tahan tubuh, penurunan kemampuan belajar bahkan dapat menyebabkan kematian jika tidak segera di atasi"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="•	Sedangkan anak yang kelebihan  gizi dapat mengalami berat badan berlebih dan obesitas. Serta memiliki risiko lebih tinggi untuk mengalami masalah kesehatan seperti terkena penyakit jantung, stroke, diabetes, asma dan berbagai penyakit lainnya."
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
+</ScrollView>

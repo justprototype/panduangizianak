@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu2_1012Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kebutuhan Gizi Anak Usia 10 - 12 Tahun"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text=" -- Anak pada usia ini mulai banyak beramain di luar rumah, memiliki aktifitas yang tinggi serta beresiko terpapar sumber penyakit dan perilaku hidup yang tidak sehat. "
+       android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -- Sebagian anak pada usia ini sudah mulai memasuki pertumbuhan cepat pra-pubertas sehingga kebutuhan nutrisi mulai meningkat. "
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -- Anak biasanya memiliki perubahan sikap terhadap makanan yang dipengaruhi oleh teman sebaya, keluarga maupun media. Selain itu anak juga lebih banyak menghabiskan waktu di sekolah dan mulai terpapar dengan jajanan-jajanan di luar sehingga orang tua perlu untuk memperhatikan asupan gizi yang sehat untuk anak. "
+        android:layout_margin="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/tabel1012"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note : angka ini menunjukan kebutuhan gizi secara umum sesuai yang dianjurkan. Kebutuhan gizi setiap anak dapat berbeda-beda dipengaruhi oleh berat badan, aktifitas dan faktor-faktor lainnya. "
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
+</ScrollView>

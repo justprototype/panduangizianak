@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Menu3_2Activity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prinsip Gizi Seimbang"
+            android:textSize="30dp"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/menu32"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a) Konsumsi Beranekaragam Makanan"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tubuh membutuhkan asupan zat gizi yang diperoleh dari berbagai macam makanan karena tidak ada satupun jenis makanan yang mengandung semua zat gizi yang dibutuhkan tubuh, kecuali ASI bagi anak 0-6 Bulan."
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a)Membiasakan Perilaku Hidup Bersih"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perilaku hidup bersih merupakan upaya untuk menghindarkan keluarga dari keterpaparan sumber infeksi terutama pada anak. Contoh perilaku hidup bersih dalam kehidupan sehari-hari seperti :
+\n\n-	Selalu mencuci tangan dengan sabun dan air mengalir sebelum makan, sebelum memberikan asi, sebelum menyiapkan makanan dan minuman, setelah buang air besar dan kecil;
+\n\n-	Menutup makanan yang disajikan untuk menghindari makanan dihinggapi alalat atau abinatang lain yang membewa sumber penyakit.
+\n\n-	Menutup mulut dan hidung ketika bersin
+\n\n-	Menggunakan alas kaki untuk menghindari terkena penyakit cacingan."
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c) Melakukan Aktifitas Fisik"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aktifitas fisik yang meliputi segala macam kegiatan tubuh untuk menyeimbangkan pengeluaran dan pemasukan zat gizi terutama sumber energi dalam tubuh."
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d) Mempertahankan dan Memantau Berat Badan Normal"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Berat badan yang normal merupakan salah satu indikator tercapainya keseimbangan zat gizi di dalam tubuh. Oleh karena itu pemantauan berat badan normal penting untuk dilakukan sehingga jika terjadi penyimpangan dapat segera di lakukan pencegahan dan penanggulangannya."
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    tools:context=".Menu7_3Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tips Membuat Anak Menyukai Buah dan Sayur"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a) Modifikasi bentuk sajian sayur dan buah"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/menu731"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sayuran bisa di sajikan dalam bentuk makanan lain yang menarik dan disukai anak. Misalnya wortel yang digiling dan dicampur ayam untuk dijadikan siomay atau nugget dengan bentuk yang menarik, makanan selingan sepertai cake yang dicampur wortel atau bayam. Selain bentuknya yang tidak lagi berbentuk sayuran, rasa yang menonjol dari bahan lainnya akan mempengaruhi rasa sayuran yang dapat menarik minat anak.  Bisa juga menyajikan sayur dan buah dalam bentuk yang berbeda seperti sup buah, puding buah atau salad buah."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="b) Sajikan dengan bentuk menarik"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/menu732"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Sayuran bisa dimasukan kedalam makanan kesukaan anak atau diselipkan kedalam makanan selingan seperti dicampur kedalam adonan cake atau kue dan Buah dapat disajikan dengan potongan unik untuk menrik perhatian anak."/>
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

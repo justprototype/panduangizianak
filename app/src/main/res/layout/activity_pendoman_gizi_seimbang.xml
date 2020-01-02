@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PendomanGiziSeimbang">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        card_view:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:id="@+id/idpedomangizi1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mengapa harus gizi seimbang?"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Deskripsi:"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tahukan ibu.. Bahwa pola makan yang yang dibentuk sejak dini sangat berpengaruh terhadap kesehatan....."/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        card_view:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:id="@+id/idpedomangizi2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Prinsip gizi seimbang"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Deskripsi:"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tubuh membutuhkan asupan zat gizi yang diperoleh dari berbagai macam makanan karena tidak ada....."/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        card_view:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:id="@+id/idpedomangizi3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tumpeng Gizi Seimbang"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Deskripsi:"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tumpeng gizi seimbang merupakan gambaran dan penjelasan tentang panduan po....."/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        card_view:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:id="@+id/idpedomangizi4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Piring Makanku : Sajian sekali makan?"
+                    android:textSize="17dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Deskripsi:"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Piring makanku : sajian sekali makan merupakan gambaran panduan yang menunjukkan sajian makanan dan minuman ....."/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        card_view:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:id="@+id/idpedomangizi5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pesan umum gizi seimbang"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Deskripsi:"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Konsumsi beragam jenis pangan dengan memperhatikan keamanan dan kebersihannya. ....."/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        card_view:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:id="@+id/idpedomangizi6">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pesan Khusus PGS "
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Deskripsi:"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pada 6 bulan pertama kehidupan, merupakan masa pertumbuhan yang sangat cepat sehingga membutuhkan nutrisi yang tinggi. ....."/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+
+</ScrollView>

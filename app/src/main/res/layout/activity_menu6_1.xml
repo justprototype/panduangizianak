@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".Menu6_1Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kenapa Memberikan Makanan Sehat Untuk Anak Itu Penting ?"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="200dp"
+        android:src="@drawable/menu61"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Taukah Bunda bahwa membiasakan anak makan sehat sejak kecil sangat baik untuk proses tumbuh kembangnya? Tidak hanya untuk proses tumbuh kembang yang optimal, tetapi juga dapat menurunkan risiko anak terserang penyakit kronis ketika dewasa nanti loh Bun..."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Sebagai awalan untuk menanamkan kebiasaan ini     , tentu    orangtua   harus   pintar dalam   memilih berbagai    macam   makanan    sehat untuk si kecil.  Namun   kesibukan  dalam  bekerja  atau  karena  aktivitas  lainnya  kadang     membuat orangtua kurang memerhatikan pemilihan sumber makanan sehat untuk anak. Tidak jarang makanan cepat saji atau camilan yang kurang sehat menjadi alternatif yang kita berikan untuk anak. "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Dikhawatirkan  kebiasaan  tersebut  dapat  terbawa  hingga  dewasa   yang  kemudian  menimbulkan  berbagai   dampak buruk bagi kesehatannya. Jika makan makanan sehat tidak dibiasakan sejak dini, risiko anak terserang penyakit kronis pun lebih tinggi. Mulai dari penyakit jantung, diabetes, tekanan darah tinggi, hingga obesitas di kemudian hari.
+\n\nTentu  Bunda   tidak   mau   hal  tersebut   menimpa     buah   hati   kita,   bukan ?   Jadi   mulai   sekarang,   Yuk kita mulai tanamkan kebiasaan makan makanan sehat pada anak demi kesehatannya di masa depan.
+"/>
+</LinearLayout>
+
+</ScrollView>

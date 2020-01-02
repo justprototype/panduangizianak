@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        tools:context=".Menu4_2Activity">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" 
+          android:text="Protein"
+          android:textSize="30dp"
+          android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="40dp"
+            android:src="@drawable/menu42"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manfaat :" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1)"
+                android:layout_weight="13"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sebagai zat pembangun sel tubuh. Anak akan terus mengalami pertumbuhan sehingga membutuhkan protein untuk membentuk jaringan baru seperti tulang dan otot."
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2)"
+                android:layout_weight="13"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sebagai zat pengganti sel tubuh. Adanya kerusakan jaringan akibat cedera membutuhkan protein untuk mengganti sel-sel yang rusak."
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Sumber Makanan yang mengandung protein :" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Protein Hewani" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1. Daging\n2. Ayam\n3. Ikan\n4. Udang\n5. Kerang\n6. Babat\n7. Daging Kerbau\n8. Ikan Asin\n9. Teri"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10. Daging Kambing\n11. Hati Ayam\n12. Hati Sapi\n13. Otak\n14. Telur Ayam\n15. Usus Sapi\n16. Sosis\n17. Daging Babi\n18. Corner Beef\n19. Steak"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Protein Nabati" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1. Kacang Kedelai\n2. Kacang Tanah\n3. Kacang Merah\n4. Kacang Hijau\n5. Kacang Mete"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="6. Kacang Koro\n7. Susu Kedelai\n8. Tahu\n9. Tempe\n10. Oncom"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

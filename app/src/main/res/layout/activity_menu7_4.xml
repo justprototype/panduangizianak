@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu7_4Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tips mengatasi anak yang pemilih makanan (picky eater)."
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/menu741"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Picky eater diartikan sebagai perilaku anak yang suka pilih-pilih makanan atau hanya mau mengkonsumsi makanan tertentu. Anak Picky eater bisa disebabkan karna selera anak berkembang sehingga ada kecenderungan mulai menyukai makanan tertentu atau rasa tertentu, anak merasa bosan dengan hidangan yang diberikan atau karna kebiasaan makan keluarga yang juga pemilih makanan. Beberapa cara yang dapat dilakukan untuk mengatasi anak yang Picky eater adalah sebagai berikut :"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a) Kenalkan lagi berbagai variasi makanan kepada anak. Jangan menyerah jika anak menolak makanan yang kita tawarkan. Biasanya anak baru mau mengkonsumsi makanan baru setelah 8 sampai 10 kali dicobakan."
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="b) Berikan makanan dengan porsi lebih kecil tapi lebih sering."
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="c) Hidangkan makanan dengan cara yang menarik dan bervariatif untuk anak."
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="d) Ciptakan suasana yang menyenangkan. Hindari memaksa anak memakan makanan tertentu karna dapat menimbulkan trauma pada anak. "
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="e) Mengajak anak makan bersama keluarga dan berikan contoh perilaku makan sehat bagi anak."
+        android:layout_marginTop="10dp"/>
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

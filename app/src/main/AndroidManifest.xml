@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.panduanmakansehatanak">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconmenu3"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SekilasActivity"></activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".HasilIndexActivity" />
+        <activity android:name=".Menu7_4Activity" />
+        <activity android:name=".Menu7_3Activity" />
+        <activity android:name=".Menu7_2Activity" />
+        <activity android:name=".Menu7_1Activity" />
+        <activity android:name=".TipsTipsMenarik" />
+        <activity android:name=".Resep20Activity" />
+        <activity android:name=".Resep19Activity" />
+        <activity android:name=".Resep18Activity" />
+        <activity android:name=".Resep17Activity" />
+        <activity android:name=".Resep16Activity" />
+        <activity android:name=".Resep15Activity" />
+        <activity android:name=".Resep14Activity" />
+        <activity android:name=".Resep13Activity" />
+        <activity android:name=".Resep12Activity" />
+        <activity android:name=".Resep11Activity" />
+        <activity android:name=".Resep10Activity" />
+        <activity android:name=".Resep9Activity" />
+        <activity android:name=".Resep8Activity" />
+        <activity android:name=".Resep7Activity" />
+        <activity android:name=".Resep6Activity" />
+        <activity android:name=".Resep5Activity" />
+        <activity android:name=".Resep4Activity" />
+        <activity android:name=".Resep3Activity" />
+        <activity android:name=".Resep2Activity" />
+        <activity android:name=".Resep1Activity" />
+        <activity android:name=".Menu6_3Activity" />
+        <activity android:name=".Menu6_2Activity" />
+        <activity android:name=".Menu6_1Activity" />
+        <activity android:name=".MenuMakanSehatAnak" />
+        <activity android:name=".InfoKandunganGizi" />
+        <activity android:name=".Menu4_5Activity" />
+        <activity android:name=".Menu4_4Activity" />
+        <activity android:name=".Menu4_3Activity" />
+        <activity android:name=".Menu4_2Activity" />
+        <activity android:name=".Menu4_1Activity" />
+        <activity android:name=".SumberZatGizi" />
+        <activity android:name=".Menu3_6Activity" />
+        <activity android:name=".Menu3_5Activity" />
+        <activity android:name=".Menu3_4Activity" />
+        <activity android:name=".Menu3_3Activity" />
+        <activity android:name=".Menu3_2Activity" />
+        <activity android:name=".Menu3_1Activity" />
+        <activity android:name=".PendomanGiziSeimbang" />
+        <activity android:name=".Menu2_1012Activity" />
+        <activity android:name=".Menu2_79Activity" />
+        <activity android:name=".Menu2_46Activity" />
+        <activity android:name=".Menu2_13Activity" />
+        <activity android:name=".AngkaKecukupanGiziActivity" />
+        <activity android:name=".CekStatusGiziActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".SplashActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

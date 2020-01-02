@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Menu3_5Activity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pesan umum gizi seimbang"
+            android:textSize="30dp"
+            android:gravity="center_horizontal"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a)	Syukuri dan nikmati keanekaragaman pangan"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_weight="19"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Konsumsi beragam jenis pangan dengan memperhatikan keamanan dan kebersihannya."
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_weight="19"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Konsumsi lima kelompok pangan setiap hari atau setiap kali makan seperti makanan pokok, lauk-pauk, sayur-sayuran, buah-buahan dan minuman."
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_weight="19"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Syukuri dan nikmati makanan yang kita makan dengan cara berdoa sebelum makan dan makan dengan tidak tergesa-gesa agar makanan dapat dikunyah, dicerna dan diserap dengan baik oleh tubuh."
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b)	Banyak makan sayuran dan buah-buahan"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sayuran dan buah-buahan banyak mengandung vitamin, mineral dan serat. \n•	Sebagian vitamin dan mineral dalam buah dan sayur berfungsi sebagai antioksidan yang melindungi tubuh dari senyawa jahat. \n•	Konsumsi buah dan sayur yang cukup juga membantu mencegah terjadinya berbagai penyakit kronis serta menjaga berat badan agar tetap normal. \n•	Porsi sayur dan buah yang dianjurkan adalah sebanyak 400 gram, yang terdiri dari 250 gram sayur atau setara dengan 2 ½ gelas sayur yang telah dimasak dan ditiriskan, dan 150 gram buah atau setara dengan 3 buah pisang ambon ukuran sedang atau 3 buah jeruk ukuran sedang atau 1 ½ potong pepaya ukuran sedang."
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c)	Biasakan mengkonsumsi lauk pauk berprotein tinggi"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	Lauk pauk merupakan sumber protein hewani dan protein nabati yang masing-masing memiliki keunggulan dan kekurangan. \n•	Sumber protein hewani memiliki kandungan asam amino yang lebih lengkap serta memiliki kandungan protein, vitamin dan mineral yang mudah diserap tubuh namun memiliki kandungan kolesterol dan lemak yang tinggi. \n•	Sedangkan sumber protein nabati memiliki kandungan lemak tidak jenuh yang lebih banyak dan mengandung antioksigen dan anti-kolesterol namun kandungan protein dan mineralnya lebih rendah."
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d)	Biasakan makan beranekaragam makanan pokok"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	Makanan pokok merupakan sumber makanan karbohidrat yang sering dikonsumsi masyarakat atau telah menjadi budaya makan masyarakaat sejak lama.\n•	Sumber makanan yang mengandung karabohidrat seperti beras, jagung, singkong, ubi, talas, sagu, terigu dan produk olahaannya. Masyarakat diharapkan dapat mengkonsumsi lebih dari satu jenis makanan pokok dalam sehari atau sekali makan."
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="e)	Batasi makanan asin, manis dan berlemak"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	Masyarakat diharapkan perlu memperhatikan informasi nilai gizi yang tercantum pada label pangan terutama untuk makanan-makanan siap saji.\n•	Konsumsi gula yang dianjurkan adalah sebanyak 50 gr (4 sendok makan)/orang/hari, sedangkan konsumsi garam yang dianjurkan adalah sebanyak 5 gr (1 sendok teh)/orang/hari dan konsumsi lemak yang dianjurkan adalah sebanyak 67 gram (5 sendok makan)/orang/hari\n•	Konsumsi gula yang berlebihan dapat berdampak pada peningkatan berat badan,  resiko peningkatan gula darah yang dapat berdampak pada terjadinya diabetes type-2, bahkan secara tidak langsung dapat berdampak pada penyakit osteoporosis, penyakit jantung dan kanker. \n•	Makanan yang mengandung gula tidak hanya yang berasal dari gula tebu, gula aren maupun gula jagung, tetapi juga yang terkandung dalam buah manis, jus, kecap, minuman bersoda dan sebagainya. \n•	Sedangkan konsumsi garam/natrium yang berlebihan dapat berdampak pada peningkatan tekanan darah \n•	Konsumsi lemak secara berlebihan dapat meningkatkan kadar kolesterol yang dapat berakibat pada terjadinya penyakit jantung dan serangan jantung. Namun khusus anak usia 6-24 bulan konsumsi lemak tidak perlu dibatasi."
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="f)	Biasakan sarapan"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	Sarapan merupakan kegiatan makan dan minum yang dilakukan antara bangun pagi sampai jam 9 untuk memenuhi kebutuhan gizi harian. \n•	Sarapan sangat penting untuk dilakukan terutama pada anak usia sekolah. Karena dapat memberikan zat gizi bagi tubuh yang akan digunakan untuk berfikir, sehingga dapat meningkatkan konsentrasi belajar anak, dapat memberikan zat gizi untuk beraktifitas fisik serta dapat menghindari resiko anak mengkonsumsi jajan yang tidak sehat. \n•	Sarapan yang baik terdiri dari pangan karbohidrat, lauk-pauk, sayuran / buah-buahan dan minuman dengan porsi yang cukup."
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="g)	Biasakan minum air putih yang cukup dan aman"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	Air berfungsi dalam berbagai proses metabolisme dalam tubuh. Sekitar 78% berat otak adalah air. \n•	Berbagai penelitian menunjukan bahwa kekurangan air pada anak sekolah dapat menimbulkan rasa letih serta menurunkan konsentrasi belajar anak. \n•	Minum air putih yang cukup terbukti dapat meningkatkan konsentrasi belajar anak dan mengoptimalkan memori anak dalam belajar."
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="h)	Biasakan membaca label pada kemasan makanan"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	Lebel merupakan keterangan tentang isi, jenis, komposisi zat gizi, tanggal kadaluarsa dan berbagai info penting lainnya yang tertera pada kemasan makanan. Sehingga masyarakat diharapkan dapat mengetahui kandungan gizi dan bahan-bahan yang terkadung dalam makanan untuk menghindari resiko pada penyakit tertentu dan dapat memperkirakan kecukupan zat gizi yang dibutuhkan."
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="i)	Biasakan cuci tangan pakai sabun dan air mengalir"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	Cuci tangan pakai sabun dan air mengalir merupakan salah satu cara menurunkan kematian anak usia dibawah lima tahun khususnya yang disebabkan oleh penyakit diare dan dapat mencegah penyebaran penyakit. \n•	Mencuci tangan pakai sabun dan air mengalir dapat menjaga kebersihan secara keseluruhan serta mencegah kuman dan bakteri berpindah dari tangan ke makanan yang akan dikonsumsi. \n•	Waktu yang dianjurakan untuk cuci tangan adalah sebelum dan setelah memegang makanan, sesudah buang air besar, sebelum memberikan ASI, setelah memegang binatang dan sesudah bermain tanah/berkebun."
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="j) Lakukan aktifitas fisik yang cukup dan pertahankan berat badan normal."
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	Aktifitas fisik adalah setiap gerakan tubuh yang meningkatkan pengeluaran tenaga/energi dan pembakaran energi.\n•	Seseorang dikatakan telah melakukan aktifitas fisik yang cukup jika melakukan aktifitas fisik atau olah raga minimal 30 menit/hari atau 150 menit/minggu. \n•	Latihan fisik adalah semua bentuk latihan fisik yang dilakukan secara terstruktur dan terencana untuk meningkatkan kesegaran jasmani seperti berlari, jogging, bermain bola, berenang, senam, bersepeda dan lain sebagainya. \n•	Aktifitas fisik sangat bermanfaat bagi kesehatan tubuh seperti dapat mencegah kematian dini, dapat mencegah terjadinya penyakit tidak menular seperti penyakit jantung, stroke, kanker, diabetes type-2, osteoporosis dan depresi, menghindari resiko tekanan darah tinggi dan kolesterol tinggi, dapat meningkatkan kesehatan mental serta dapat menghindari terjadinya trauma atau serangan jantung mendadak.\n•	Pemantauan berat badan juga penting dilakukan terutama pada anak. Berat badan bayi baru lahir minimal 2.500 gram. \n•	Pemantauan berat badan anak dilakukan setiap bulan dengan menggunakan Kartu Menuju Sehat (KMS). Anak dikatakan sehat jika berat badannya naik setiap bulan mengikuti grafik perumbuhan KMS. Untuk orang dewasa digunakan Indeks masa Tubuh (IMT) yaitu ukuran kekurangan atau kelebihan berat badan. Mempertahankan berat badan normal dapat mencegah  terjadinya berbagai macam penyaik tidak menular."
+            android:layout_margin="10dp"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

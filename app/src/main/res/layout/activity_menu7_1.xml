@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    tools:context=".Menu7_1Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tips Membiasakan Makan Sehat Pada Anak "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a) Kenalkan anak dengan makanan sehat sejak dini. "
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/menu711"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proses pengenalan makanan sehat bisa dimulai sejak anak berada dalam kandungan karena saat ini anak bisa merasakan makanan yang dikonsumsi ibu melalui bantuan plasenta, kemudian dilanjutkan saat masa MPASI."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pada fase ini anak mulai mengenal berbagai macam rasa sehingga penting untuk mengenalkan berbagai macam makanan sehat terutama sayuran. Sebab sayur memiliki cita rasa yang unik yaitu tidak terlalu manis, tidak gurih dan mengandung banyak serat sehingga membutuhkan waktu lama untuk mengunyah. Jadi harus dibiasakan sejak dini agar cita rasa sayuran tidak menjadi sesuatu yang asing bagi anak, dan tidak dianggap sebagai makanan “tidak enak” terutama bagi anak yang lebih sering dibiasakan dengan makanan yang manis."
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="b) Biasakan anak makan bersama anggota keluarga lainnya. "
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/menu712"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anak adalah peniru ulung yang akan belajar dari lingkungan sekitaranya terutama dari perilaku orangtuanya, sehingga orang tua harus menjadi teladan bagi anak dalam berprilaku makan sehat. Orangtua sebaiknya memberi contoh mengkonsumsi makanan sehat bersama anak agar anak lebih termotivasi."/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="c) Sajikan menu makan sehat setiap hari"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/menu713"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usahakan selalu konsisten menghidangkan makanan sehat di rumah. Atau dengan selalu menyisipkan makana sehat dibekal si kecil."/>
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="d) Hindari dan batasi makanan cepat saji."
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/menu714"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rasa yang enak serta praktis tentu menjadi alasan makanan cepat saji sering dijadikan alternatif andalan untuk makanan si kecil. Namun tahukah bunda bahwa makanan cepat saji memiliki kandungan gula garam dan lemak yang tinggi serta kandungan gizinya sangat rendah, sehingga sangat akan berdampak buruk terhadap kesehatan si kecil dimasa mendatang. Jadi alangkah lebih baik anak dibatasi dalam mengkonsumsi makanan cepat saji ya bun."/>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="e) Biasakan anak sarapan setiap pagi."
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/menu715"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Sarapan setiap hari sangat penting terutama bagi anak-anak, karena mereka sedang tumbuh dan mengalami perkembangan otak yang sangat bergantung pada asupan makanan secara teratur. Untuk anak sekolah makan pagi sangat dianjurkan karena dapat menjadi sumber energi bagi anak untuk dapat berkonsentrasi selama belajar. Dengan membiasakan sarapan pagi, dapat menghindari perilaku makan yang tidak terkontrol yang dapat meningkatkan berat badan serta dapat menurunkan kadaar kolesterol darah."/>
+
+
+
+
+</LinearLayout>
+</ScrollView>

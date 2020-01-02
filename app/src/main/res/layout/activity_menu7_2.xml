@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Menu7_2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tips Mengatasi Anak Sulit Makan"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a) Usahakan tetap sabar dan tenang"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/menu721"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ketika anak sulit makan yang perlu dilakukan pertama kali adalah ibu harus tetap sabar dan tenang, karena kepanikan ibu dapat membuat anak ikut panik."/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="b) Sajikan makanan dengan tampilan yang lebih kreatif dan menarik"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/menu722"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hidangkan makanan dengan bentuk yang unik untuk menggugah selera makan anak. Misalnya dengan menyajikan telur rebus dengan berbagai cetakan dan bisa diselipkan sayuran yang telah dihaluskan, kreasi nasi lengkap yang disajikan ala bento menggunakan tokoh film / hewan kesukaan anak, bahan makanan dipotong dan di sajikan dalam bentuk menarik seperti bentuk rumah atau kereta api, kreasi roti yang dapat disajikan dengan meises atau aneka sayuran yang menarik serta berbagai kretifitas lainnya."/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="c) Libatkan anak dalam menyiapkan makanannya sendiri."
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/menu723"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Melibatkan anak dalam menyiapkan makanan mulai dari mengajaknya memilih bahan makanan hingga mengajak anak memasak makanan yang akan di sajikan dapat membuat anak belajar mengenal berbagai macam sayur-sayuran dan bahan makan lainnya serta melatih anak untuk melakukan tugas-tugas sederhana yang meningkatkan minat anak terhadap makanan yang akan ia makan."/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="d) Ciptakan suasana makan yang menyenangkan. "
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/menu724"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajak anak makan dengan suasana yang menyenangkan seperti dengan ditemani teman sebayanya atau dengan mendengarkan lagu kesukaannya atau dengan melakukan hal-hal yang anak sukai."/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="e) Jangan paksa anak untuk makan dengan emosi. "
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/menu725"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Memaksa anak makan justru dapat menimbulkan trauma pada anak dan anak merasa makan adalah beban dan kondisi yang tidak menyenangkan."/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="f) Cek kondisi anak."
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/menu726"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Periksa kondisi anak jika tiba-tiba menolah makan, siapa tau ada gangguan di mulut seperti sariawan yang menyebabkan anak tidak mau makan. "/>
+
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Menu3_6Activity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pesan Khusus PGS "
+            android:textSize="30dp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1)	Gizi seimbang untuk bayi 0-6 bulan."
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	Pada 6 bulan pertama kehidupan, merupakan masa pertumbuhan yang sangat cepat sehingga membutuhkan nutrisi yang tinggi. \n•	ASI merupakan makanan terbaik untuk bayi karena mampu memenuhi semua kebutuhan zat gizi bayi hingga usia 6. \n•	Selain itu ASI juga sesuai dengan perkembangan sistem pencernaan bayi, hemat dan bersih. \•	Pemberian ASI ekslusif selama 6 bulan mengurangi tingkat kematian bayi yang disebabkan berbagai penyakit seperti diare dan radang paru serta membantu mempercepat pemulihan pasca melahirkan."
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2)	Gizi seimbang untuk anak 6-24 bulan."
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	Pada masa ini anak berada pada periode pertumbuhan cepat, mulai terpapar infeksi dan secara fisik mulai aktif. Sehingga pada anak usia 6-24 bulan, kebutuhan terhadap berbagai zat gizi semakin meningkat dan tidak lagi dapat dipenuhi hanya dari ASI. \n•	Agar mencukupi gizi seimbang perlu ditambahkan makanan pendamping selain ASI (MP-ASI) untuk memenuhi kebutuhan nutrisi bayi terutama makanan yang mencakup protein, besi dan seng. \n•	Pada usia 6 bulan, bayi mulai diperkenalkan dengan makanan lain mulai dari makanan yang lumat, lembik kemudian beralih ke makanan keluarga pada usia 1 tahun. \•	Ibu diharapkan memahami bahwa pemberian makan pada masa ini akan berpengaruh pada selera makan anak pada usia selanjutnya, sehingga pengenalan makanan yang beragam menjadi sangat penting.  \n•	Variasi dan jumlah makanan pada bayi 6-24 bulan ditingkatkan secara bertahap, bayi mulai diberikan sayuran dan buah-buahan, lauk-pauk sumber protein hewani dan nabati, serta makanan pokok sebagai sumber kalori dengan jumlah yang seimbang."
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3)	Gizi seimbang untuk anak 2-5 Tahun."
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	Kebutuhan zat gizi anak 2-5 tahun meningkat karena masih dalam fase pertumbuhan cepat dan peningkatan aktifias fisik. Selain itu, anak mulai mempunyai pilihan terhadap makanan yang di sukai dan mulai sering bermain diluar rumah, sehingga jumlah dan varisi makanan harus menjadi perhatian khusus dan perilaku hidup bersih harus mulai dibiasakan. \n•	Pesan gizi seimbang untuk anak 2-5 tahun diantaranya adalah :"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="-	Biasakan makan 3 kali sehari (pagi, siang, malam) bersama keluarga.\n-	Perbanyak konsumsi makanan kaya protein seperti ikan, telur, tempe, susu dan tahu\n-	Perbanyak konsumsi sayuran dan buah-buahan.\n-	Batasi mengkonsumsi makanan selingan yang terlalu manis, asin dan berlemak.\n-	Berikan minum air putih sesuai kebutuhan.\n-	Biasakan bermain bersama dan melakukan aktifitas fisik setiap hari." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4)	Gizi seimbang untuk anak dan remaja 6-19 Tahun."
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•	Anak usia 6-19 tahun sudah memasuki masa sekolah dan banyak bermain diluar, sehingga pengaruh teman, tawaran jajanan, aktivitas yang tinggi dan keterpaparan sumber penyakit infeksi sangat tinggi. \n•	Sebagian anak pada usia ini sudah mulai memasuki pertumbuhan cepat pra-pubertas sehingga kebutuhan nutrisi mulai meningkat.\n•	Pesan gizi seimbang untuk anak 6-9 tahun diantaranya adalah :"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="-	Biasakan makan 3 kali sehari bersama keluarga. \n-	Biasakan mengkonsumsi ikan dan sumber protein lainnya.\n-	Perbanyak konsumsi sayuran dan buah-buahan.\n-	Biasakan membawa bekal makanan dan air putih dari rumah.\n-	Batasi konsumsi makanan cepat saji, jajanan dan makanan selingan yang manis, asin dan berlemak. \n-	Biasakan menyikat gigi minimal 2 kali sehari.\n-	Hindari merokok." />
+
+    </LinearLayout>
+</ScrollView>

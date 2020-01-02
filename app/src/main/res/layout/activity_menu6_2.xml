@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        tools:context=".Menu6_2Activity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apa Saya yang perlu Bunda Perhatikan ?"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="200dp"
+            android:src="@drawable/menu62"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Bingung hari ini mau masak apa untuk si kecil? Ini dia yang harus Bunda perhatikan sebelum memilih menu makanan untuk si buah hati:"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1)"
+                android:layout_weight="11"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kebutuhan energi	: menu makanan yang akan disajikan untuk sikecil harus mencukupi kebutuhan zat gizi seimbang yang sesuai kebutuhannya karena sangat penting untuk membantu proses tumbuh kembang anak yang optimal."
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2)"
+                android:layout_weight="11"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kebersihan : pilih sayur dan buah yang masih segar dan pastikan kebersihan peralatan dan tempat yang digunakan untuk mengolah makanan untuk menghindari kontaminasi bakteri."
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3)"
+                android:layout_weight="11"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cara pengolahan bahan makanan : "/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="a)"
+                        android:textSize="11dp"
+                        android:layout_weight="11"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="11dp"
+                        android:text="Potonglah bahan makanan dalam ukuran kecil untuk memudahkan anak mengunyah dan menelan makanan. "
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="b)"
+                        android:textSize="11dp"
+                        android:layout_weight="11"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:text="Bahan makanan untuk anak dapat dimatangkan dengan cara direbus, dikukus maupun digoreng. Mengukus adalah cara memasak yang sering digunakan untuk menyiapkan makanan terutama pada balita karena tekstur hasil masakannya bisa lebih lunak tanpa menghilangkan banyak kandungan zat gizi. sebaiknya bahan makanan seperti sayuran tidak direbus terlalu lama agar kandungan zat gizi tidak rusak dan larut didalam air. Gunakan minyak yang baru untuk menggoreng dan tidak menggoreng dengan minyak yang banyak."
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="c)"
+                        android:textSize="11dp"
+                        android:layout_weight="11"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:text="Hidangan makanan fresh. Hindari menghangatkan makanan karena selain merusak nilai gizi, suhu hangat pada makanan kadang justru bisa memungkinkan bakteri tertentu berkembang lebih cepat serta memanaskan makanan tertentu juga bisa menyebabkan makanan berbahaya bagi tubuh. "
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

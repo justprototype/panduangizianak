@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SekilasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#00CED1"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="“Aplikasi ini
+digunakan orangtua untuk memantau tumbuh kembang anak usia 1-12 tahun serta
+informasi mengenai pengaturan makan sehat bagi anak secara umum. Hasil yang
+berbeda pada kenyataan dapat dipengaruhi oleh kondisi tertentu pada setiap anak.
+Penilaian secara langsung oleh tenaga kesehatan sangat dianjurkan”"
+            android:textSize="21dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:text="mulai"
+            android:background="#00CED1"
+            android:id="@+id/mulai"/>
+    </LinearLayout>
+
+</LinearLayout>

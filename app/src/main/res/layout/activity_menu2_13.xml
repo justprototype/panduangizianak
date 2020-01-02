@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu2_13Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kebutuhan Gizi Anak Usia 1 -3 Tahun"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sebagai orangtua kita perlu memperhatikan kecukupan gizi bagi si kecil sesuai dengan kebutuhannya. Karena kecukupan gizi si kecil sangat penting untuk mendukung proses tumbuh kembang yang optimal. "
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pada anak usia 1 sampai 3 tahun anak mulai dapat berjalan dengan baik, aktif bergerak dan ketertarikan anak untuk mengeksplor hal-hal baru disekitarnya semakin meningkat sehingga perlu mendapatkan asupan gizi yang baik. Kebutuhan gizi untuk anak usia 1-3 Tahun adalah sebagai berikut:"
+        android:layout_margin="10dp"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/tabel13"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note : angka ini menunjukan kebutuhan gizi secara umum sesuai yang dianjurkan. Kebutuhan gizi setiap anak dapat berbeda-beda dipengaruhi oleh berat badan, aktifitas dan faktor-faktor lainnya"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
+</ScrollView>

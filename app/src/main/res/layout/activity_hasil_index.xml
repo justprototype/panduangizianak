@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    tools:context=".HasilIndexActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil Cek status Gizi Anak"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Status Gizi berdasarkan Indikator BB/U :"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data tidak ditemukan"
+        android:id="@+id/berat"/>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:textStyle="bold"
+        android:textSize="17dp"
+    android:text="Status Gizi berdasarkan Indikator TB/U :"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data tidak ditemukan"
+        android:id="@+id/tinggi"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:text="Status Gizi berdasarkan Indikator BB/TB :"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data tidak ditemukan !"
+        android:id="@+id/berattinggi"/>
+</LinearLayout>
